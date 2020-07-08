@@ -1,0 +1,141 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -34.9876,
+        "lng": -35.9876
+    },
+    "accuracy": 80,
+    "name": "KILL House",
+    "phone_number": "(+91) 983 803 3937",
+    "address": "123 Main Street",
+    "types": [
+        "Shoe park",
+        "Shop"
+    ],
+    "website": "google.com",
+    "language": "Tamil"
+}
+HTTP/1.1 200 OK
+Date: Mon, 06 Jul 2020 23:34:11 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "89be556350ae44e01b3637de29ce9faa",
+    "scope": "APP",
+    "reference": "763ac0bfdb89d8ce6ea118ed8a3897c0763ac0bfdb89d8ce6ea118ed8a3897c0",
+    "id": "763ac0bfdb89d8ce6ea118ed8a3897c0"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -34.9876,
+        "lng": -35.9876
+    },
+    "accuracy": 80,
+    "name": "BILL House",
+    "phone_number": "(+91) 983 803 3937",
+    "address": "123 Main Street",
+    "types": [
+        "Shoe park",
+        "Shop"
+    ],
+    "website": "google.com",
+    "language": "Tamil"
+}
+HTTP/1.1 200 OK
+Date: Mon, 06 Jul 2020 23:34:12 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "c8dabe20df4ebe77e2bc0e99086666fa",
+    "scope": "APP",
+    "reference": "178af4e6a8ba037ca5ab6bbba375ba26178af4e6a8ba037ca5ab6bbba375ba26",
+    "id": "178af4e6a8ba037ca5ab6bbba375ba26"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -34.9876,
+        "lng": -35.9876
+    },
+    "accuracy": 80,
+    "name": "MILL House",
+    "phone_number": "(+91) 983 803 3937",
+    "address": "123 Main Street",
+    "types": [
+        "Shoe park",
+        "Shop"
+    ],
+    "website": "google.com",
+    "language": "Tamil"
+}
+HTTP/1.1 200 OK
+Date: Mon, 06 Jul 2020 23:34:12 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "bfab230f52023b8f21bed502c968814c",
+    "scope": "APP",
+    "reference": "49db41388c5844204bbffa0a54208eb649db41388c5844204bbffa0a54208eb6",
+    "id": "49db41388c5844204bbffa0a54208eb6"
+}

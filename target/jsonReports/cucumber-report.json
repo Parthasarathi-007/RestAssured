@@ -1,0 +1,224 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-06T23:34:05.496Z",
+        "line": 13,
+        "name": "Validate that user is able to add place using AddPlace API",
+        "description": "",
+        "id": "validating-placeapi;validate-that-user-is-able-to-add-place-using-addplace-api;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2449000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the AddPlace Payload with \"KILL House\",\"Tamil\",\"123 Main Street\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"KILL House\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Tamil\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"123 Main Street\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.the_add_place_payload_with(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4042000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user calls \"AddPlaceAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "API call is success with status code 200",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.api_call_is_success_with_status_code_200()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-06T23:34:12.157Z",
+        "line": 14,
+        "name": "Validate that user is able to add place using AddPlace API",
+        "description": "",
+        "id": "validating-placeapi;validate-that-user-is-able-to-add-place-using-addplace-api;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the AddPlace Payload with \"BILL House\",\"Tamil\",\"123 Main Street\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BILL House\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Tamil\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"123 Main Street\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.the_add_place_payload_with(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 417000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user calls \"AddPlaceAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "API call is success with status code 200",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.api_call_is_success_with_status_code_200()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-06T23:34:12.591Z",
+        "line": 15,
+        "name": "Validate that user is able to add place using AddPlace API",
+        "description": "",
+        "id": "validating-placeapi;validate-that-user-is-able-to-add-place-using-addplace-api;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the AddPlace Payload with \"MILL House\",\"Tamil\",\"123 Main Street\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MILL House\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Tamil\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"123 Main Street\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.the_add_place_payload_with(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 428000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user calls \"AddPlaceAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "API call is success with status code 200",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.api_call_is_success_with_status_code_200()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating PlaceAPI",
+    "description": "",
+    "id": "validating-placeapi",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/placeValidations.feature",
+    "tags": []
+  }
+]
